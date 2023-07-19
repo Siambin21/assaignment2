@@ -1,5 +1,5 @@
 
-.footer span{
+footer span{
     color: white;
 }
 /* nav section*/
@@ -220,6 +220,50 @@ background: #FFF;
     background-color:  #0B0223;
     height: 700px;
  }
+ .links-footer a{
+    text-decoration: none;
+ 
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+    line-height: normal;
+   }
+    .footer{
+        margin-left: 700px;
+    }
+    .links-footer{
+        display: flex;
+        margin: 20px 250px;
+        text-align: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+.p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.footer-2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px 200px;
+    justify-content: space-around;
+    display: flex;
+}
 
     /* for mobile */
     @media screen and (max-width:425px) {
