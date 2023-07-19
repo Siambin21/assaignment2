@@ -178,6 +178,22 @@ line-height: 60px; /* 125% */
     line-height: 30px; /* 166.667% */}
 .section-horse{
     display: flex;
+
+border: 3px solid white;
+height: 750px;
+margin-top: 100px;
+margin-left: 300px;
+margin-right: 103px;
+}
+.position-img{
+ position: sticky;
+    margin-left: -800px;
+    margin-bottom: -100px;
+}
+.sh-img{
+    margin-left: 260px;
+   
+    
 }
 
     /* for mobile */
@@ -214,4 +230,19 @@ line-height: 60px; /* 125% */
        .right-container{
         margin-left: 50px;
        }
-} 
+       .section-horse{
+        display: flex;
+      flex-direction: column;
+       }
+       .writings{
+        width: 100vw;
+        margin: 50px auto;
+    margin-left: -350px;
+
+       }
+     .hh{
+     position: relative;
+     margin: 0;
+margin-right: -500px;
+     }
+     
