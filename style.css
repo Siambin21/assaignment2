@@ -254,15 +254,20 @@ line-height: normal;
 .footer-2 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
-    text-align: center;
+align-items: center;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin: 20px 200px;
-    justify-content: space-around;
+   
+   
+ 
+}
+.footer-2{
     display: flex;
+    justify-content: space-around;
 }
 
     /* for mobile */
