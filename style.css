@@ -141,10 +141,10 @@ margin-left: 25px;
     gap: 15px;
     justify-content: space-around;
 }
-/* .main-img{
-    width: 10vw;
-} */
 
+.main-container h1, p{
+    text-align: center;
+}
 
 
     /* for mobile */
@@ -164,5 +164,21 @@ margin-left: 25px;
         .logo-container{
             margin-left: 115px;
         }
-       
+       .header{
+        display: flex;
+        flex-direction: column-reverse;
+       }
+       .left-container img{
+        width: 80vw;
+        margin: 30px 50px;
+
+       }
+       .main-img-container{
+        display: flex;
+        flex-direction: column;
+   margin-left: 60px;
+       }
+       .right-container{
+        margin-left: 50px;
+       }
 } 
