@@ -140,12 +140,45 @@ margin-left: 25px;
     display: flex;
     gap: 15px;
     justify-content: space-around;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
 }
 
 .main-container h1, p{
     text-align: center;
 }
+/* main section ends here */
+.section-horse span{
+    color:  #F948B2;
+}
+.writings{
+  align-items: center;
+height: 450px;
+}
+.writings h1{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
 
+}
+.sh{text-align:start ;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */}
+.section-horse{
+    display: flex;
+}
 
     /* for mobile */
     @media screen and (max-width:425px) {
