@@ -1,7 +1,11 @@
 @media screen and (max-width:425px) {
-    .nav-containr{
+    .nav-containar{
+        display: block;
+      
+    } 
+   .nav-links{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
-    
 }
