@@ -216,7 +216,8 @@ margin-right: 103px;
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9{
     display: flex;
     align-items: center;
-gap: 10px;}
+gap: 5px;
+width: 150px;}
 .line-one{
     height: 100px;
     display: flex;
@@ -425,7 +426,11 @@ margin-left: -10px;
     footer{
         height: 500vh;
     }
-
+.line-one,.line-two{
+    display: flex;
+    flex-direction: column;
+}
+.line-two{margin-left: 140px;}
     }
      /* for tablet */
      @media  screen and (min-width:768px) and (max-width:992px) {
@@ -499,9 +504,7 @@ margin-left: -10px;
  .writings h1,p{
      margin-right: 200px;
  }
- .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9{
-     display: flex;
-     flex-direction: column;
+ 
  }
  .line-one img{
      height: 100px;
@@ -514,6 +517,16 @@ margin-left: -10px;
      
  }
  .p{margin-left: 200px;}
+ .line-one img{
+    height: 50px;
+    width: 50px;
+
+}
+.line-two img{
+    height: 50px;
+    width: 50px;
+    
+ 
  }
      
  
