@@ -427,4 +427,26 @@ margin-left: -10px;
     }
 
     }
+    /* for tablet */
+    @media  screen and (max-width:768px) {
+       *{
+        border: 2px solid red;
+       
+       }
+       .section-horse{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+       }
+       .main-img-container{
+        display: flex;
+        flex-direction: column;
+       }
+       .header{
+        display: flex;
+        flex-direction: column;
+       }
+       
+        
+    }
     
