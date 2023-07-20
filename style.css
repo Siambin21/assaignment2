@@ -213,6 +213,10 @@ margin-right: 103px;
     
 }
 /*  */
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9{
+    display: flex;
+    align-items: center;
+gap: 10px;}
 .line-one{
     height: 100px;
     display: flex;
@@ -275,7 +279,7 @@ font-weight: 600;
    }
     .footer{
         margin-left: 700px;
-     margin-top: 80px;
+     margin-top: 100px;
       
         
        
