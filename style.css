@@ -271,9 +271,13 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
     line-height: normal;
+    margin-top: 50px;
    }
     .footer{
         margin-left: 700px;
+     margin-top: 80px;
+      
+        
        
     }
     .links-footer{
@@ -296,25 +300,27 @@ line-height: normal;
 .footer-2 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
-align-items: center;
+
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 20px 200px;
+    margin-top: 100px;
+   
    
    
  
 }
 .footer-2{
     display: flex;
-    justify-content: space-around;
+    margin: 20px 50px;
+    justify-content: space-between;
+    margin: 20px 200px;
 }
 .m{
     margin-top: 100px;
 }
-
 
     /* for mobile */
     @media screen and (max-width:425px) {
@@ -404,9 +410,7 @@ margin-left: -500px;
     header span{
 margin-left: -10px;
     }
-    body{
-        overflow-x: hidden;
-    }
+   
     footer{
         height: 100vh;
     }
