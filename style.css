@@ -447,6 +447,54 @@ margin-left: -10px;
         flex-direction: column;
        }
        
+        .icon-section{
+            margin-top: 500px;
+        }
+        .horse{
+            width: 400px;
+            height: 500px;
+        }
+        .position-img{
+            margin: 0;
+            height: 230px;
+            width: 170px;
+            margin-top: -150px;
+            margin-left: -70px;
+        }
+        .footer{
+            margin: 0;
+            margin-left: 270px;
+        }
+        .nav-links ul{
+            
+      gap: 10px;
         
     }
+.nav-container{
+    width: 700px;
+    display: block;
+}
+.nav-links{
+    margin: 0;
+    margin-left: 130px;
+}
+.logo-container{
+    margin-left: 270px;
+}
+.header-head{
+    margin-left: 150px;
+
+}
+.l-c-1,.l-c-2,.l-c-3{
+    margin-left: 220px;
+}
+.btn-h-1{
+    margin-left: 200px;
+}
+.main-img{margin-left: 180px;}
+.main-img p{
+    margin-right: 180px;
+
+}
+}
     
