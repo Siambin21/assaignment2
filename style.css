@@ -314,9 +314,7 @@ align-items: center;
 .m{
     margin-top: 100px;
 }
-*{
-    border: 2px solid palevioletred;
-}
+
 
     /* for mobile */
     @media screen and (max-width:425px) {
